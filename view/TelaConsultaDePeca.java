@@ -1,6 +1,5 @@
 package br.com.senai.manutencaosenaiapi.view;
 
-import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -47,7 +46,7 @@ public class TelaConsultaDePeca extends JFrame {
 	 */
 	public TelaConsultaDePeca() {
 		setTitle("Tela de Consulta de Peça");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		setBounds(100, 100, 526, 378);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

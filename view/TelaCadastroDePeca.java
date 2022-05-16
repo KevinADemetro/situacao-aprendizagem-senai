@@ -47,7 +47,7 @@ public class TelaCadastroDePeca extends JFrame {
 	 */
 	public TelaCadastroDePeca() {
 		setTitle("Cadastro de Peça");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		setBounds(100, 100, 516, 335);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
