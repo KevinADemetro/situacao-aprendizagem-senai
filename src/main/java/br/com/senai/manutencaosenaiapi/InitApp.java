@@ -15,10 +15,6 @@ import br.com.senai.manutencaosenaiapi.view.Menu;
 import br.com.senai.manutencaosenaiapi.view.TelaConsultaDePeca;
 import br.com.senai.manutencaosenaiapi.view.TelaConsultaDeTipoPeca;
 
-/**
- * @author DEV-02
- *
- */
 @SpringBootApplication
 public class InitApp {
 	
